@@ -5,7 +5,7 @@ const cityId = document.getElementById('input-cidade')
 
 const handleBtnGen = () => {
 
-    fetch(`http://apiadvisor.climatempo.com.br/api/v1/locale/city/${cityId.value}?token=${apiAuthToken}`)
+    fetch(`https://apiadvisor.climatempo.com.br/api/v1/locale/city/${cityId.value}?token=${apiAuthToken}`)
 
         .then((response) => response.json())
 
